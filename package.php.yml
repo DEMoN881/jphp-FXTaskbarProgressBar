@@ -1,0 +1,44 @@
+name: jphp-FXTaskbarProgressBar
+version: 1.0.0
+
+deps:
+    jphp-runtime: '1.3.1'
+
+devDeps:
+  jphp-core: "1.3.1"
+  dn-bundle-plugin: '1.0.2'  
+
+config:
+  ignore:
+  - /sandbox/**
+  - /.idea/**
+  - /*.iml
+  - /.git/**
+  - /package.hub.yml
+  - /bundle/**
+  - /src-bundle/**
+  - /build
+  - /out/**
+  - /examples/**
+  - /screenshots/**
+  - /dn-sources/**
+  - /.gitignore
+  - /settings.gradle
+
+gradle:
+  providedDeps:
+    - file:./jars/FXTaskbar-all.jar
+
+develnext-bundle:
+  version: 1.0.0
+  name: jphp-FXTaskbarProgressBar
+  author: Demonck || Evodevelopers
+  icon: "develnext/bundle/fxtaskbarprogressbarnative/icon32.png"
+  description: "Начиная с Windows 7 в системах Windows появилась функция «индикатор выполнения» на панели задач, которая, по сути, означает, что вы можете видеть ход выполнения программы на значке на панели задач. Хороший пример — копирование чего-либо с помощью проводника"
+  group: "system"
+  class: "develnext\\bundle\\fxtaskbarprogressbarnative\\FXTaskbarProgressBar"
+
+plugins:
+  - Gradle
+  - Hub
+  - Doc

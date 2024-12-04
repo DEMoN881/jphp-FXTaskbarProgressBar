@@ -1,0 +1,6 @@
+org/develnext/jphp/ext/fxtaskbar/nativewindows/evodevelopers/classes/FXTaskBarNativeWindowsType.java
+ org.develnext.jphp.ext.fxtaskbar.nativewindows.evodevelopers.classes.FXTaskBarNativeWindowsType
+org/develnext/jphp/ext/fxtaskbar/nativewindows/evodevelopers/FXTaskBarExtension.java
+ org.develnext.jphp.ext.fxtaskbar.nativewindows.evodevelopers.FXTaskBarExtension
+org/develnext/jphp/ext/fxtaskbar/nativewindows/evodevelopers/classes/FXTaskBarNativeWindows.java
+ org.develnext.jphp.ext.fxtaskbar.nativewindows.evodevelopers.classes.FXTaskBarNativeWindows
